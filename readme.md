@@ -1,6 +1,6 @@
-#easy:notify
+<h1>easy:notify</h1>
 
-###What is it?
+<h2>What is it?
 easy:notify aims to allow users simple access to notify.
 Do you know the feeling when your program runs, but you need to do something else? For such things easy:notify is perfect!
 
@@ -14,7 +14,7 @@ Do you know the feeling when your program runs, but you need to do something els
 6) To send a simple message just use ```send_message(title="title", message="message")```
 7) Thats it!
 
-###Advanced Options
+<h2>Advanced Options</h2>
 All atributes for ```send_message()```
 >```vibrate=True|False```  de/activate the vibration
 
@@ -25,10 +25,10 @@ All atributes for ```send_message()```
 >```flash=True|False``` is a WIP feature ;)
 
 
-###If you dont want/can use the Python-Module
+<h2>If you dont want/can use the Python-Module</h2>
 Here is explained how to reach the server to build your own module/Application!
 
-######ALL REQUESTS HAVE TO BE A POST-REQUEST!
+<h6>ALL REQUESTS HAVE TO BE A POST-REQUEST!</h6>
 
 >```/gettoken``` to receive a token from the Server
 
@@ -40,7 +40,7 @@ Here is explained how to reach the server to build your own module/Application!
 >```/readinfo/[string:token]``` to read more Information from the server
 
 
-###To-Do:
+<h2>To-Do:</h2>
 - Add The Flash-light function
 
 
