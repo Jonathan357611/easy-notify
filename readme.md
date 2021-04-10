@@ -5,7 +5,7 @@ easy:notify aims to allow users simple access to notify.
 Do you know the feeling when your program runs, but you need to do something else? For such things easy:notify is perfect!
 
 
-###How to use it
+<h2>How to use it</h2>
 1) Install the APK on your android device
 2) Put the "easy_notify.py" in the folder where your program is located
 3) Start the android App and click on "Show Token", You will need this later!
