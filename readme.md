@@ -9,7 +9,7 @@ Do you know the feeling when your program runs, but you need to do something els
 1) Install the APK on your android device
 2) Put the "easy_notify.py" in the folder where your program is located
 3) Start the android App and click on "Show Token", You will need this later!
-4) import the "easy_notify.py" package using `from easy_notify import send_message, token`
+4) import the "easy_notify.py" package using <`from easy_notify import send_message, token`>
 5) Now use ````token("YOUR_TOKEN_HERE")```` with your token
 6) To send a simple message just use ````send_message(title="title", message="message")````
 7) Thats it!
