@@ -6,6 +6,7 @@ Do you know the feeling when your program runs, but you need to do something els
 
 
 <h3>How to use it</h3>
+
 - Install the APK on your android device
 
 
@@ -37,7 +38,7 @@ Do you know the feeling when your program runs, but you need to do something els
 - Thats it!
 
 <h3>Advanced Options</h3>
-All atributes for ```send_message()```
+<h5>All atributes for "send_message()":</h5>
 >```vibrate=True|False```  de/activate the vibration
 
 >````vibration_pattern="-_--__-```` Use a costum "Pattern", a "-" stands for 0.1 second vibration while a "_" stands for a pause of 0.1 seconds
