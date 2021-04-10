@@ -46,4 +46,7 @@ Here is explained how to reach the server to build your own module/Application!
 
 - Add a group-Feature
 
+
+- Upload to PyPi.org
+
 <h6>btw, I know my code is a mess, Im still learning! But feel free to tell me what I can do better!</h6>
