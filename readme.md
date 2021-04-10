@@ -6,16 +6,35 @@ Do you know the feeling when your program runs, but you need to do something els
 
 
 <h3>How to use it</h3>
-1) Install the APK on your android device
-2) Put the "easy_notify.py" in the folder where your program is located
-3) Start the android App and click on "Show Token", You will need this later!
-4) import the "easy_notify.py" package using 
-```python
-from easy_notify import send_message, token
-```
-5) Now use ```token("YOUR_TOKEN_HERE")``` with your token
-6) To send a simple message just use ```send_message(title="title", message="message")```
-7) Thats it!
+- Install the APK on your android device
+
+
+- Put the "easy_notify.py" in the folder where your program is located
+
+
+- Start the android App and click on "Show Token", You will need this later!
+
+
+- import the "easy_notify.py" package using :
+        ```python
+        from easy_notify import send_message, token
+        ```
+
+
+- Now use 
+        ```python
+        token("YOUR_TOKEN_HERE")
+        ``` 
+  
+
+- with your token
+
+
+- To send a simple message just use 
+        ```python
+        send_message(title="title", message="message")
+        ```
+- Thats it!
 
 <h3>Advanced Options</h3>
 All atributes for ```send_message()```
