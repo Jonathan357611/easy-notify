@@ -14,7 +14,7 @@ Do you know the feeling when your program runs, but you need to do something els
 6) To send a simple message just use ````send_message(title="title", message="message")````
 7) Thats it!
 
-<h2>Advanced Option`s</h2>
+<h2>Advanced Options</h2>
 All atributes for ```send_message()````
 >````vibrate=True|False````  de/activate the vibration
 
