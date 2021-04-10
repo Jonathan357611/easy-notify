@@ -1,23 +1,25 @@
 <h1>easy:notify</h1>
 
-<h2>What is it?
+<h3>What is it?</h3>
 easy:notify aims to allow users simple access to notify.
 Do you know the feeling when your program runs, but you need to do something else? For such things easy:notify is perfect!
 
 
-<h2>How to use it</h2>
+<h3>How to use it</h3>
 1) Install the APK on your android device
 2) Put the "easy_notify.py" in the folder where your program is located
 3) Start the android App and click on "Show Token", You will need this later!
-4) import the "easy_notify.py" package using ```python        
-        from easy_notify import send_message, token```
-5) Now use ````token("YOUR_TOKEN_HERE")```` with your token
-6) To send a simple message just use ````send_message(title="title", message="message")````
+4) import the "easy_notify.py" package using 
+```python
+from easy_notify import send_message, token
+```
+5) Now use ```token("YOUR_TOKEN_HERE")``` with your token
+6) To send a simple message just use ```send_message(title="title", message="message")```
 7) Thats it!
 
-<h2>Advanced Options</h2>
-All atributes for ```send_message()````
->````vibrate=True|False````  de/activate the vibration
+<h3>Advanced Options</h3>
+All atributes for ```send_message()```
+>```vibrate=True|False```  de/activate the vibration
 
 >````vibration_pattern="-_--__-```` Use a costum "Pattern", a "-" stands for 0.1 second vibration while a "_" stands for a pause of 0.1 seconds
 
@@ -26,22 +28,23 @@ All atributes for ```send_message()````
 >````flash=True|False```` is a WIP feature ;)
 
 
-<h2>If you dont want/can use the Python-Module</h2>
+<h3>If you dont want/can use the Python-Module</h3>
 Here is explained how to reach the server to build your own module/Application!
 
 <h6>ALL REQUESTS HAVE TO BE A POST-REQUEST!</h6>
 
->````/gettoken```` to receive a token from the Server
+>```/gettoken``` 
+to receive a token from the Server
 
->````/write/[str:token]/[str:body]/[str:title]/[bool:vibrate]/[string:vibration_pattern]/[bool:flash]````
+>```/write/[str:token]/[str:body]/[str:title]/[bool:vibrate]/[string:vibration_pattern]/[bool:flash]```
 > NOTE: You need to pass the vibration-pattern like : "ab", this equals "-_"
 
->````/read[title|text]/[string:token]```` To read the Title/Text from the server
+>```/read[title|text]/[string:token]``` To read the Title/Text from the server
 
->``****`/readinfo/[string:token]``****` to read more Information from the server
+>```/readinfo/[string:token]``` to read more Information from the server
 
 
-<h2>To-Do:</h2>
+<h3>To-Do:</h3>
 
 - Add The Flash-light function
 
@@ -49,6 +52,6 @@ Here is explained how to reach the server to build your own module/Application!
 - Add a group-Feature
 
 
-- Upload to PyPi
+- Upload code to https://pypi.org/
 
 <h6>btw, I know my code is a mess, Im still learning! But feel free to tell me what I can do better!</h6>
